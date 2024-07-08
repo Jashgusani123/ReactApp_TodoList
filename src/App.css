@@ -12,7 +12,6 @@ header{
 }
 nav{
   color: white;
-  width: 100%;
   border-bottom: 3px solid white;
 }
 .header_h1{
@@ -103,11 +102,9 @@ ul{
   margin: 0; 
 }
 .cards_div{
-  --tw-bg-opacity: 1;
-    background-color: rgb(148 163 184 / var(--tw-bg-opacity)) /* #94a3b8 */;
+    background-color: #94a3b8;
     margin-top: 1.25rem /* 20px */;
-    padding: 8px;
-    
+    padding: 10px;
 }
 #root{
   width: 100%;
@@ -119,7 +116,7 @@ ul{
     background-color: aqua;
   }
   header{
-    width: 364px;
+    width:99%;
   }
   form{
     display: flex;
@@ -127,14 +124,14 @@ ul{
     align-items: center;
     gap: 10px;
     flex-direction: column;
-    width: 364px;
+    width: 99%;
   }
   form input{
     width: 50%;
     border-radius: 20px;
   }
   .cards_div{
-    width: 352px;
+    width: 95%;
     padding: 9px;
   }
   .headingdiv {
@@ -143,6 +140,8 @@ ul{
   .libutton {
     background-color: #44efdb;
     color: black;
+  }
+  .libutton:hover{
     box-shadow: 0px 0px 10px #44efdb;
   }
 }

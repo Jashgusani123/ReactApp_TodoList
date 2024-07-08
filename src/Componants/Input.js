@@ -9,7 +9,7 @@ const Input = () => {
     const [mainTask, setmainTask] = useState([])
     let [count, setcount] = useState(0)
 
-    if(count == 0){
+    if(count === 0){
         document.title = "TodoList"
     }
     const submitHend = (e) => {
@@ -19,9 +19,9 @@ const Input = () => {
             count++
             document.title = `(${count}) TodoList`
             setcount(count)
-        }else if(dec.length == 0 && title.length>0){
+        }else if(dec.length === 0 && title.length>0){
             alert("Pleace add Time")
-        }else if(title.length == 0 && dec.length >0){
+        }else if(title.length === 0 && dec.length >0){
             alert("Pleace add Task")
         }else{
             alert("Pleace add Task and Time")
